@@ -1,0 +1,80 @@
+body{
+   background: url(https://educationalvoice.co.uk/wp-content/uploads/2024/05/Default_Careers_in_Animation_1.jpg);
+background-size: cover;
+margin: 0;
+font-family:'poppins',sans-serif;
+background-repeat: no-repeat;
+}
+
+#form{
+    width: 400px;
+    margin: 10vh auto 0 80px;
+    background:url(https://educationalvoice.co.uk/wp-content/uploads/2024/04/Default_The_Future_of_Animation_for_Television_and_Film_1-768x512.jpg);
+    border-radius: 20px;
+    padding: 20px;
+    background-size: cover;
+    
+}
+
+h1{
+    text-align: center;
+    color: #0ccdf4;
+}
+
+#form button{
+    background-color: #792099;
+    color: white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #14aebf;
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+.error-message{
+    color: rgb(246, 11, 11);
+    font-size: 8px;
+    margin-top: 2px;
+}
+
+.input-group.success input{
+    border-bottom: #0cc477;
+}
+
+.input-group.error-message input{
+    border-bottom: #c73d2e;
+}
+
+@media (max-width:450px){
+    #form{
+        width: 300px;
+        height: fit-content;
+        margin: 5vh auto 0 80px;
+        background:url(https://educationalvoice.co.uk/wp-content/uploads/2024/04/Default_The_Future_of_Animation_for_Television_and_Film_1-768x512.jpg);
+        border-radius: 20px;
+        padding: 20px;
+        background-size: auto;
+        
+    }
+}
+
